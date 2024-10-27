@@ -1,6 +1,8 @@
 
-import Home from "./page/Home"
-
+//import FormInicial from "./page/FormInicial"
+import TablaPacientes from "./components/TablaPacientes"
+import SidebarMenu from "./components/navbar/SidebarMenu";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
@@ -8,7 +10,11 @@ const App = () => {
 
   return (
     <>
-      <Home />
+      {/* <SidebarMenu /> */}
+      {/* <FormInicial /> */}
+      <TablaPacientes />
+      
+      
       
     </>
   )
